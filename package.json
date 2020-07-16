@@ -1,25 +1,23 @@
 {
-  "name": "@comparto/repository-name",
-  "version": "0.0.0",
-  "main": "src/index.js",
+  "name": "@comparto/prettier-config",
+  "version": "0.0.0-development",
+  "main": "index.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/comparto/repository-name.git"
+    "url": "https://github.com/comparto/prettier-config.git"
   },
   "author": "@jimmy-guzman <jimmy.guzman@outlook.com>",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "comparto"
+  ],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "prettify": "prettier '**/**/*.{js,md}' --write",
-    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint/ . --ext .js",
-    "lint:fix": "yarn lint --fix",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "test:ci": "yarn test:coverage"
+    "prettify": "prettier '**/**/*.{js,md,json}' --write"
   },
   "husky": {
     "hooks": {
@@ -27,28 +25,21 @@
     }
   },
   "lint-staged": {
-    "*.{md}": [
+    "*.{md,json,js}": [
       "prettier --write"
-    ],
-    "*.{js}": [
-      "eslint --fix"
     ]
   },
   "peerDependencies": {},
   "dependencies": {},
   "devDependencies": {
-    "@comparto/eslint-config": "1.1.2",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "eslint": "^7.2.0",
     "husky": "^4.2.5",
-    "jest": "^26.1.0",
     "lint-staged": "^10.2.10",
     "prettier": "^2.0.5",
-    "semantic-release": "^17.0.8",
-    "typescript": "^3.9.5"
+    "semantic-release": "^17.0.8"
   },
   "files": [
-    "src"
+    "index.json"
   ]
 }

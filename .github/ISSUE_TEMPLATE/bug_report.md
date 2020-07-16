@@ -12,7 +12,7 @@ name: 🐛 Bug Report
 about: Bugs, missing documentation, or unexpected behavior 🤔.
 ---
 
-- `@comparte/repository-name` version:
+- `@comparte/prettier-config` version:
 - `eslint` version:
 - `typescript` version:
 - `node` version:
