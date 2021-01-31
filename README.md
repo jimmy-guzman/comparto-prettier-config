@@ -27,9 +27,9 @@ yarn add --dev @comparto/prettier-config
 
 ## Related
 
-- [@comparto/eslint-config](https://github.com/comparto/eslint-config)
+- [@comparto/eslint-config](https://github.com/jimmy-guzman/comparto-eslint-config)
 
-[actions-badge]: https://img.shields.io/github/workflow/status/comparto/prettier-config/Release?label=actions&logo=github-actions&style=flat-square
+[actions-badge]: https://img.shields.io/github/workflow/status/jimmy-guzman/comparto-prettier-config/cicd?label=actions&logo=github-actions&style=flat-square
 [version-badge]: https://img.shields.io/npm/v/@comparto/prettier-config.svg?logo=npm&style=flat-square
 [package]: https://www.npmjs.com/package/@comparto/prettier-config
 [downloads-badge]: https://img.shields.io/npm/dm/@comparto/prettier-config.svg?logo=npm&style=flat-square

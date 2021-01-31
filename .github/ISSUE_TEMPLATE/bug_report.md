@@ -4,18 +4,16 @@ about: Create a report to help us improve
 title: ''
 labels: bug
 assignees: jimmy-guzman
-
 ---
 
 ---
+
 name: 🐛 Bug Report
 about: Bugs, missing documentation, or unexpected behavior 🤔.
+
 ---
 
-- `@comparte/prettier-config` version:
-- `eslint` version:
-- `typescript` version:
-- `node` version:
+- `@comparto/prettier-config` version:
 
 ### Relevant code or config:
 
