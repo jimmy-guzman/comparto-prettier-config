@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jimmy-guzman/comparto-prettier-config/compare/v1.1.0...v1.2.0) (2021-01-31)
+
+
+### Features
+
+* 🎸 always use arrow parens ([f6d7a15](https://github.com/jimmy-guzman/comparto-prettier-config/commit/f6d7a15c3132cfba4ac6bd9f52c6a95d128dfb51))
+
 # [1.1.0](https://github.com/comparto/prettier-config/compare/v1.0.0...v1.1.0) (2020-07-22)
 
 
